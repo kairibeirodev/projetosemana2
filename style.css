@@ -1,0 +1,70 @@
+body {
+  background: linear-gradient(black 75%, red) no-repeat;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  max-width: 1200px;
+  margin: 0%;
+  padding: 0em 15px 15px 15px;
+}
+.container {
+  margin: 0 auto;
+  padding: 0%;
+}
+
+a:hover {
+  color: red;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin-top: 0;
+  padding: 0 15px;
+  font-size: 20px;
+ 
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  height: auto;
+  display: flex;
+  position: relative;
+  height: 500px;
+  align-items: center;
+  background-color: #d3d3d3;
+}
+
+.dani {
+  position: absolute;
+  left: 600px;
+  bottom: 0%;
+}
+
+.dani img {
+  width: 250px;
+}
+
+.texto {
+  color: black;
+  width: 50%;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
